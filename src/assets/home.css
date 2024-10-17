@@ -348,6 +348,28 @@ section {
   margin-top: 6%;
   cursor: pointer;
 }
+
+.project-1 {
+  color: white;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.project-1-img {
+  width: 500px;
+  align-items: center;
+  border-radius: 30px;
+  border: solid 5px white;
+}
+
+.project-1 p {
+  margin-top: 1rem;
+  font-size: 18px;
+}
 .apple {
   margin: auto;
   width: 600px;

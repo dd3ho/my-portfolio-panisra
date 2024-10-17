@@ -103,39 +103,6 @@
       <h1 class="about-title">Projects</h1>
     </div>
     <div class="">
-      <!-- <div class="d-flex justify-space-around align-center py-4">
-      <v-btn
-        icon="mdi-minus"
-        variant="text"
-        @click="model = Math.max(model - 1, 0)"
-      ></v-btn>
-      {{ model }}
-      <v-btn
-        icon="mdi-plus"
-        variant="text"
-        @click="model = Math.min(model + 1, 4)"
-      ></v-btn>
-    </div> -->
-    <!-- <v-carousel v-model="model">
-      <v-carousel-item
-        v-for="(color, i) in colors"
-        :key="color"
-        :value="i"
-      >
-        <v-sheet
-          :color="color"
-          height="100%"
-          tile
-        >
-          <div class="d-flex fill-height justify-center align-center">
-            <div class="text-h2">
-              Slide {{ i + 1 }}
-            </div>
-          </div>
-        </v-sheet>
-      </v-carousel-item>
-    </v-carousel> -->
-
     <div class="carousel" id="carousel">
       <div class="darksoul-carousel">
         <img src="https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png" id="bgimg1"/>
@@ -145,7 +112,12 @@
         
         <div class="apple" @click="apple"  id="apple">
             <img style="margin-left: 30px; margin-top: 15px;" width="36" height="36" src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/FFFFFF/external-apple-sports-and-awards-smashingstocks-glyph-smashing-stocks.png" alt="external-apple-sports-and-awards-smashingstocks-glyph-smashing-stocks"/>
-            <h1 id="appletext">APPLE</h1>
+            <div class="project-1" id="contentProject">
+              <h1>resume</h1>
+              <img class="project-1-img" src="../assets/img/project-resume.png"/>
+              <p>this is resume website to represent how am i</p>
+              <div class="project-1-web"></div>
+            </div>
            <img src="https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png" id="appleimg"/>
         </div>
 
@@ -259,7 +231,8 @@ export default {
         bgimg3: null,
         bgimg4: null,
 
-        selectFruit: ""
+        selectFruit: "",
+        contentProject: null
     };
   },
   methods: {
@@ -303,11 +276,11 @@ export default {
       this.lemondiv = document.getElementById("lemon");
       this.strawberrydiv = document.getElementById("strawberry");
       this.bodycolor = document.getElementById("carousel");
-      this.appleimg = document.getElementById("appleimg");
+      // this.appleimg = document.getElementById("appleimg");
       this.lemonimg = document.getElementById("lemonimg");
       this.orangeimg = document.getElementById("orangeimg");
       this.strawberryimg = document.getElementById("strawberryimg");
-      this.appletext = document.getElementById("appletext");
+      // this.appletext = document.getElementById("appletext");
       this.lemontext = document.getElementById("lemontext");
       this.strawberrytext = document.getElementById("strawberrytext");
       this.orangetext = document.getElementById("orangetext");
@@ -315,6 +288,9 @@ export default {
       this.bgimg2 = document.getElementById("bgimg2");
       this.bgimg3 = document.getElementById("bgimg3");
       this.bgimg4 = document.getElementById("bgimg4");
+
+      // content in project
+      this.contentProject = document.getElementById("contentProject");
 },
 
 baseElement(color) {
@@ -325,7 +301,8 @@ baseElement(color) {
   this.strawberrydiv.style.width = "100px";
 
   if (this.selectFruit === "lemon") {
-    this.lemondiv.style.width = "600px";
+    this.contentProject.style.display = "none";
+    this.lemondiv.style.width = "100%";
     this.bgimg1.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/lemonbg.png";
     this.bgimg2.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/lemonbg.png";
     this.bgimg3.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/lemonbg.png";
@@ -339,6 +316,7 @@ baseElement(color) {
     bgimg4.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/orange.png";
 
   } else if (this.selectFruit === "apple") {
+    this.contentProject.style.display = "flex";
     this.applediv.style.width = "600px";
     bgimg1.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png";
     bgimg2.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png";
@@ -358,11 +336,11 @@ baseElement(color) {
   this.bodycolor.style.backgroundColor = color;
 
   this.orangeimg.style.animation = "visibility-h 0s linear 0s 1 normal forwards";
-  this.appleimg.style.animation = "visibility-h 0s linear 0s 1 normal forwards";
+  // this.appleimg.style.animation = "visibility-h 0s linear 0s 1 normal forwards";
   this.strawberryimg.style.animation = "visibility-h 0s linear 0s 1 normal forwards";
   this.lemonimg.style.animation = "visibility-h 0s linear 0s 1 normal forwards";
 
-  this.appletext.style.animation = "text-back 1s linear 0s 1 normal forwards";
+  // this.appletext.style.animation = "text-back 1s linear 0s 1 normal forwards";
   this.strawberrytext.style.animation = "text-back 1s linear 0s 1 normal forwards";
   this.orangetext.style.animation = "text-back 1s linear 0s 1 normal forwards";
   this.lemontext.style.animation = "text-back 1s linear 0s 1 normal forwards";
@@ -376,8 +354,8 @@ baseElement(color) {
     orangetext.style.animation = "text 1s linear 0s 1 normal forwards";
 
   } else if (this.selectFruit === "apple") {
-    appleimg.style.animation = "down 1s linear 0s 1 normal forwards";
-    appletext.style.animation = "text 1s linear 0s 1 normal forwards";
+    // appleimg.style.animation = "down 1s linear 0s 1 normal forwards";
+    // appletext.style.animation = "text 1s linear 0s 1 normal forwards";
 
 
 
