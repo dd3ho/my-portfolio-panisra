@@ -10,9 +10,40 @@
             showcase my skills and approach to web development.
           </p>
         </div>
+        <div class="wave-section">
+          <div class="wave wave1"></div>
+          <div class="wave wave2"></div>
+          <div class="wave wave3"></div>
+          <div class="wave wave4"></div>
+        </div>
       </div>
       <div class="home-right">
-        <img class="img-dev" src="../assets/img/developer.png" alt="developer" />
+        <img class="img-dev" src="../assets/img/profile.png" alt="developer" />
+        <h3 class="name-home">Panisra Wongbubpa</h3>
+        <h4 class="email-home">panisraparn@gmail.com</h4>
+        <div class="social-links">
+          <!-- GitHub -->
+          <a href="https://github.com/dd3ho" target="_blank" class="github-link">
+            <img src="../assets/img/github-mark.png" alt="GitHub" class="github-image" />
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/yourusername" target="_blank">
+            <!-- <img src="linkedin-logo.png" alt="LinkedIn" /> -->
+          </a>
+
+          <!-- Email -->
+          <a href="mailto:panpanisra@gmail.com">
+            <img src="../assets/img/email-logo.png" alt="Email" />
+          </a>
+        </div>
+        <button class="home-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          contact
+        </button>
       </div>
     </section>
 
@@ -22,159 +53,354 @@
         <h1 class="about-title">ABOUT ME</h1>
       </div>
       <div class="about-bottom">
-
         <div class="about-left">
-          <img src="../assets/img/profile.png" alt="Profile Picture" class="profile-picture"/>
-          <div class="about-introduce">
-            <h3>Welcome</h3>
-            <p>Hello! I'm a recent graduate with a degree in Computer Science, eager to start my career in software development. I am passionate about learning new technologies and solving challenging problems.</p>
-          </div>
-          <div class="education">
-            <h3>Education</h3>
-            <ul>
-              <li>Bachelor’s in Computer Science from Kasetsart University (Bangkhen)</li>
-              <li>GPA: 2.70</li>
-            </ul>
-          </div>
-          <div class="skill">
-            <h3>Skill</h3>
-            <div class="skill-box">
-              <div class="skill-item">JavaScript</div>
-              <div class="skill-item">HTML</div>
-              <div class="skill-item">CSS</div>
-              <div class="skill-item">PYTHON</div>
-              <div class="skill-item">DJANGO</div>
-              <div class="skill-item">VUE JS</div>
-              <div class="skill-item">REACT</div>
-              <div class="skill-item">SQL</div>
-            </div>
-          </div>
+          <!-- <h1>That's me!</h1> -->
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#ff5500"
+              fill-opacity="1"
+              d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+            ></path>
+          </svg> -->
+          <!-- <div class="wave-section">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+          </div> -->
 
-          <div class="skill">
-            <h3>Tool</h3>
-            <div class="skill-box">
-              <div class="skill-item">Git</div>
-              <div class="skill-item">Postman</div>
-              <div class="skill-item">VS Code</div>
-            </div>
+          <!-- CAT WALK -->
+          <!-- <div id="marco">
+            <div id="cielo"></div>
+            <div id="gato"></div>
+            <div id="muro"></div>
+            <div id="edificios"></div>
+          </div> -->
+
+          <!-- TOOL -->
+          <div class="tool">
+            <div class="tag">UI Design</div>
+            <div class="tag">python</div>
+            <div class="tag">java</div>
+            <div class="tag">javascript</div>
+            <div class="tag">HTML/CSS</div>
+            <div class="tag">Vue.js</div>
+            <div class="tag">Django</div>
+            <div class="tag">React</div>
+            <div class="tag">Vuetify</div>
+            <div class="tag">Leadership</div>
+            <!-- <div class="tag">Sketch</div> -->
+            <!-- <div class="tag">Adobe Suite</div> -->
           </div>
         </div>
 
-
-
         <div class="about-right">
-          <h2 class="about-header2">Timeline</h2>
-          <div class="timeline">
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <h3>2020-2024 New graduate</h3>
-                <h4>Kasetsart University (Bangkhen)</h4>
-                <h5>Major: Computer Science</h5>
-                <h5>GPA: 2.70</h5>
-              </div>
+          <div class="x">
+            <div class="x-left"></div>
+            <div class="x-right"></div>
+            <div class="x-right"></div>
+          </div>
+          <h2>
+            I'm a recent graduate with a degree in Computer Science, eager to start my career in
+            software development. I am passionate about learning new technologies and solving
+            challenging problems.
+          </h2>
+        </div>
+      </div>
+
+      <div class="education-section">
+        <div class="exp-title">
+          <h2>Education</h2>
+        </div>
+        <div class="exp-container">
+          <div class="exp-card">
+            <div class="exp-year">
+              <span>2020 - 2024</span>
             </div>
-            <div class="timeline-item">
-              <div class="timeline-content">
-                <h3>Jun 1 - Oct 31, 2023</h3>
-                <h4>Internships Software Developer</h4>
-                <h5>@Trinity Roots Co., Ltd.</h5>
-                <p>
-                  During my internship at Trinity Roots Co., Ltd., I worked as a Software Developer using Django and Vue.js.
-                  My main responsibilities included:
-                  <ul>
-                    <li>Developing and maintaining both customer-facing and admin dashboards using Django for the backend and Vue.js for the frontend.</li>
-                    <li>Implementing and validating various features and functionalities as per the project requirements.</li>
-                    <li>Conducting manual testing to ensure the quality and functionality of the applications.</li>
-                    <li>Collaborating with team members to troubleshoot and resolve issues.</li>
-                    <li>Documenting the testing procedures and results to support future development and debugging efforts.</li>
-                  </ul>
-                  This experience allowed me to enhance my skills in full-stack development and gain hands-on experience with both Django and Vue.js in a real-world environment.
-                </p>
-              </div>
+            <div class="exp-content">
+              <h2>Bachelor of Computer Science</h2>
+              <p>KASETSART UNIVERSITY (BANGKHEN)</p>
+            </div>
+            <div class="exp-description">
+              <p>
+                Engaged in coursework related to computer science, including software development,
+                algorithms, and data structures. Participated in hackathons and collaborated on
+                projects.
+              </p>
+              <p>GPA: 2.70</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-experience">
+        <div class="exp-title">
+          <h2>Experience</h2>
+        </div>
+        <div class="exp-container">
+          <!-- Software Developer Intern Experience Card -->
+          <div class="exp-card">
+            <div class="exp-year">
+              <span>2023</span>
+            </div>
+            <div class="exp-content">
+              <h2>Software Developer Intern</h2>
+              <p>Trinity Roots Co., Ltd.</p>
+              <p>Jun 1 - Oct 31, 2023</p>
+            </div>
+            <div class="exp-description">
+              <p>
+                Developed and maintained systems using Django and Vue.js, implemented features,
+                performed manual testing, and collaborated with the team to resolve issues. Gained
+                full-stack development skills and real-world experience.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-  <!-- projects section -->
-  <section id="projects" class="project-section">
-    <div class="about-top">
-      <h1 class="about-title">Projects</h1>
-    </div>
-    <div class="">
-    <div class="carousel" id="carousel">
-      <div class="darksoul-carousel">
-        <img src="https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png" id="bgimg1"/>
-        <img src="https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png" id="bgimg2"/>
-        <img src="https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png" id="bgimg3"/>
-        <img src="https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png" id="bgimg4"/>
-        
-        <div class="apple" @click="apple"  id="apple">
-            <img style="margin-left: 30px; margin-top: 15px;" width="36" height="36" src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/FFFFFF/external-apple-sports-and-awards-smashingstocks-glyph-smashing-stocks.png" alt="external-apple-sports-and-awards-smashingstocks-glyph-smashing-stocks"/>
-            <div class="project-1" id="contentProject">
-              <h1>resume</h1>
-              <img class="project-1-img" src="../assets/img/project-resume.png"/>
-              <p>this is resume website to represent how am i</p>
-              <div class="project-1-web"></div>
-            </div>
-           <img src="https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png" id="appleimg"/>
-        </div>
+    <!-- projects section -->
+    <section id="projects" class="project-section">
+      <div class="about-top">
+        <h1 class="about-title">Projects</h1>
+      </div>
+      <div class="card">
+        <v-card>
+          <!-- Tabs -->
+          <v-tabs v-model="tab" bg-color="pink-accent-1" key="tabs">
+            <v-tab :key="1" value="one">E-commerce</v-tab>
+            <v-tab :key="2" value="two">Loan System Management</v-tab>
+            <v-tab :key="3" value="three">POS (Point of Sale) KAfee Cafe</v-tab>
+            <v-tab :key="4" value="fourth">KU Leave Management System</v-tab>
+            <v-tab :key="5" value="fifth">My Portfolio</v-tab>
+          </v-tabs>
 
-        <div class="lemon" @click="lemon" id="lemon">
-            <img style="margin-left: 30px; margin-top: 15px;" width="36" height="36" src="https://img.icons8.com/glyph-neue/64/1A1A1A/citrus.png" alt="citrus"/>
-            <img src="https://darksoul-codepen.github.io/Fruits%20Carousel/lemon.png" id="lemonimg"/>
-            <h1 id="lemontext">LEMON</h1>
-        </div>
+          <!-- Window to display tab content -->
+          <v-card-text>
+            <v-window v-model="tab" key="window">
+              <!-- E-commerce Project Description -->
+              <v-window-item :key="1" value="one">
+                <div class="project-content text-center">
+                  <!-- Project Image -->
+                  <v-img
+                    src="/src/assets/img/project-e-commerce.png"
+                    max-width="600"
+                    class="project-image mx-auto mb-6"
+                  />
 
-        <div class="strawberry" @click="strawberry" id="strawberry">
-            <img style="margin-left: 30px; margin-top: 15px;" width="36" height="36" src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/FFFFFF/external-Strawberry-food-smashingstocks-glyph-smashing-stocks.png" alt="external-Strawberry-food-smashingstocks-glyph-smashing-stocks"/>
-            <img src="https://darksoul-codepen.github.io/Fruits%20Carousel/strawberry.png" id="strawberryimg"/>
-            <h1 id="strawberrytext">BERRY</h1>
-        </div>
+                  <!-- Project Description -->
+                  <p class="project-description mt-4">
+                    The online marketplace system consists of three main features: User for browsing
+                    and purchasing products, Seller for managing inventory, and Admin for managing
+                    user accounts and overseeing the system. Each role is designed to simplify
+                    processes and ensure smooth transactions.
+                  </p>
 
-        <div class="orange" @click="orange" id="orange">
-            <img style="margin-left: 30px; margin-top: 10px;" width="36" height="36" src="https://img.icons8.com/pastel-glyph/64/FFFFFF/citrus-1.png" alt="citrus-1"/>
-            <img src="https://darksoul-codepen.github.io/Fruits%20Carousel/orange.png" id="orangeimg"/>
-            <h1 id="orangetext">ORANGE</h1>
-        </div>
+                  <!-- Project Links -->
+                  <div class="link-container mt-4">
+                    <a
+                      href="https://github.com/dd3ho/E-commerce-JavaFX"
+                      target="_blank"
+                      class="project-link ml-4"
+                    >
+                      View on GitHub
+                    </a>
+                  </div>
+                </div>
+              </v-window-item>
 
-    </div>
-    <!-- <p class="disclaimer">Designed & Created by <a href="https://darksoul-codepen.github.io/" target="_blank">DarkSoul</a> | Icons by <a href="https://icons8.com/" target="_blank">Icons8</a></p> -->
-    </div>
+              <!-- Loan System Management Description -->
+              <v-window-item :key="2" value="two">
+                <div class="project-content text-center">
+                  <!-- Project Image -->
+                  <v-img
+                    src="/src/assets/img/project-banking.png"
+                    max-width="600"
+                    class="project-image mx-auto mb-6"
+                  />
 
-  </div>
-  </section>
+                  <!-- Project Description -->
+                  <p class="project-description mt-4">
+                    This is an application pertaining to the management of loan systems within a
+                    bank, designed for bank employees. It features various functions such as
+                    customer registration system, document recording system, contract recording
+                    system, invoicing system, and others.
+                  </p>
 
+                  <!-- Project Links -->
+                  <div class="link-container mt-4">
+                    <a
+                      href="https://github.com/dd3ho/Loan_System_Management_JavaFX"
+                      target="_blank"
+                      class="project-link ml-4"
+                    >
+                      View on GitHub
+                    </a>
+                  </div>
+                </div>
+              </v-window-item>
+
+              <!-- POS System Description -->
+              <v-window-item :key="3" value="three">
+                <div class="project-content text-center">
+                  <!-- Project Image -->
+                  <v-img
+                    src="/src/assets/img/project-pos.png"
+                    max-width="600"
+                    class="project-image mx-auto mb-6"
+                  />
+
+                  <!-- Project Description -->
+                  <p class="project-description mt-4">
+                    The project is designed to enhance the management and efficiency of coffee shop
+                    operations. It provides a web application for streamlined staff management, menu
+                    updates, and sales promotions. The system also includes features for managing
+                    loyalty programs and coupons to improve customer service and operational
+                    efficiency.
+                  </p>
+
+                  <!-- Project Links -->
+                  <div class="link-container mt-4">
+                    <a
+                      href="https://github.com/dd3ho/POS_Kafee_Cafe"
+                      target="_blank"
+                      class="project-link ml-4"
+                    >
+                      View on GitHub
+                    </a>
+                  </div>
+                </div>
+              </v-window-item>
+
+              <!-- KU Leave Management System Description -->
+              <v-window-item :key="4" value="fourth">
+                <div class="project-content text-center">
+                  <!-- Project Image -->
+                  <v-img
+                    src="/src/assets/img/project-leave.png"
+                    max-width="600"
+                    class="project-image mx-auto mb-6"
+                  />
+
+                  <!-- Project Description -->
+                  <p class="project-description mt-4">
+                    The KU Leave Management System is a web application designed to streamline the
+                    process of submitting and approving leave requests for students. It allows
+                    students to easily request various types of leave, while faculty can efficiently
+                    review and manage these requests, track their status, and maintain leave
+                    history.
+                  </p>
+
+                  <!-- Project Links -->
+                  <div class="link-container mt-4">
+                    <a
+                      href="https://github.com/dd3ho/Leave_Management_System_Banckend"
+                      target="_blank"
+                      class="project-link ml-4"
+                    >
+                      View Backend on GitHub
+                    </a>
+                    <a
+                      href="https://github.com/PsYcHo6908/Leave_Management_Forntend"
+                      target="_blank"
+                      class="project-link ml-4"
+                    >
+                      View Frontend on GitHub
+                    </a>
+                  </div>
+                </div>
+              </v-window-item>
+
+              <!-- Portfolio Project Description -->
+              <v-window-item :key="5" value="fifth">
+                <div class="project-content text-center">
+                  <!-- Project Image -->
+                  <v-img
+                    src="/src/assets/img/project-resume.png"
+                    max-width="600"
+                    class="project-image mx-auto mb-6"
+                  />
+
+                  <!-- Project Description -->
+                  <p class="project-description mt-4">
+                    This portfolio project showcases my work and skills, utilizing technologies such
+                    as Vue.js and Vuetify to create a responsive and modern design. It includes
+                    various sections that provide information about my projects, skills, and how to
+                    contact me.
+                  </p>
+
+                  <!-- Project Links -->
+                  <div class="link-container mt-4">
+                    <a href="https://your-portfolio-link.com" target="_blank" class="project-link">
+                      View Project
+                    </a>
+                    <a
+                      href="https://github.com/dd3ho/my-portfolio-panisra"
+                      target="_blank"
+                      class="project-link ml-4"
+                    >
+                      View on GitHub
+                    </a>
+                  </div>
+                </div>
+              </v-window-item>
+            </v-window>
+          </v-card-text>
+        </v-card>
+      </div>
+    </section>
 
     <section id="contact" class="contact-section">
       <div class="container">
         <h1>Contact Me</h1>
-        <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible.</p>
-        <form class="contact-form">
+        <p>
+          Feel free to contact me by submitting the form below and I will get back to you as soon as
+          possible.
+        </p>
+        <form @submit.prevent="sendEmail" class="contact-form">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" required placeholder="Enter name">
+            <input
+              type="text"
+              v-model="name"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter name"
+            />
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" required placeholder="Enter email">
+            <input
+              type="email"
+              v-model="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Enter email"
+            />
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" required placeholder="Write your Message"></textarea>
+            <textarea
+              v-model="message"
+              id="message"
+              name="message"
+              rows="4"
+              required
+              placeholder="Write your Message"
+            ></textarea>
           </div>
           <button type="submit" class="submit-btn">Send Message</button>
         </form>
       </div>
     </section>
-
-
-    
   </div>
 </template>
 
 <script>
+import emailjs from 'emailjs-com'
 import '../assets/home.css'
 export default {
   name: 'HomeView',
@@ -188,8 +414,8 @@ export default {
   mounted() {
     this.handleScroll()
     window.addEventListener('scroll', this.handleScroll)
-    this.apple();
-    this.initializeElements();
+    // this.apple()
+    // this.initializeElements()
   },
   beforeDestroy() {
     window.removeEventListener('scroll', this.handleScroll)
@@ -197,43 +423,22 @@ export default {
   computed: {
     // orangedivStyle() {
     //   return {
-
     //   };
     // },
   },
   data() {
     return {
-      colors: [
-          'primary',
-          'secondary',
-          'yellow darken-2',
-          'red',
-          'orange',
-        ],
-        model: 0,
+      colors: ['primary', 'secondary', 'yellow darken-2', 'red', 'orange'],
+      model: 0,
 
-        // project section
-        applediv: null,
-        orangediv: null,
-        lemondiv: null,
-        strawberrydiv: null,
-        bodycolor: null,
-        appleimg: null,
-        orangeimg: null,
-        lemonimg: null,
-        strawberryimg: null,
-        appletext: null,
-        orangetext: null,
-        lemontext: null,
-        strawberrytext: null,
-        bgimg1: null,
-        bgimg2: null,
-        bgimg3: null,
-        bgimg4: null,
+      // project section
+      tab: 'one',
 
-        selectFruit: "",
-        contentProject: null
-    };
+      // contact section
+      name: '',
+      email: '',
+      message: ''
+    }
   },
   methods: {
     handleScroll() {
@@ -270,130 +475,34 @@ export default {
       //   }
       // });
     },
-    initializeElements() {
-      this.applediv = document.getElementById("apple");
-      this.orangediv = document.getElementById("orange");
-      this.lemondiv = document.getElementById("lemon");
-      this.strawberrydiv = document.getElementById("strawberry");
-      this.bodycolor = document.getElementById("carousel");
-      // this.appleimg = document.getElementById("appleimg");
-      this.lemonimg = document.getElementById("lemonimg");
-      this.orangeimg = document.getElementById("orangeimg");
-      this.strawberryimg = document.getElementById("strawberryimg");
-      // this.appletext = document.getElementById("appletext");
-      this.lemontext = document.getElementById("lemontext");
-      this.strawberrytext = document.getElementById("strawberrytext");
-      this.orangetext = document.getElementById("orangetext");
-      this.bgimg1 = document.getElementById("bgimg1");
-      this.bgimg2 = document.getElementById("bgimg2");
-      this.bgimg3 = document.getElementById("bgimg3");
-      this.bgimg4 = document.getElementById("bgimg4");
+    sendEmail() {
+      const serviceID = 'service_gkz77nn'
+      const templateID = 'template_bkztpsv'
+      const userID = 'AcylwjHvB9gnzPiER'
 
-      // content in project
-      this.contentProject = document.getElementById("contentProject");
-},
-
-baseElement(color) {
-
-  this.lemondiv.style.width = "100px";
-  this.orangediv.style.width = "100px";
-  this.applediv.style.width = "100px";
-  this.strawberrydiv.style.width = "100px";
-
-  if (this.selectFruit === "lemon") {
-    this.contentProject.style.display = "none";
-    this.lemondiv.style.width = "100%";
-    this.bgimg1.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/lemonbg.png";
-    this.bgimg2.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/lemonbg.png";
-    this.bgimg3.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/lemonbg.png";
-    this.bgimg4.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/lemonbg.png";
-
-  } else if (this.selectFruit === "orange") {
-    this.orangediv.style.width = "600px";
-    bgimg1.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/orange.png";
-    bgimg2.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/orange.png";
-    bgimg3.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/orange.png";
-    bgimg4.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/orange.png";
-
-  } else if (this.selectFruit === "apple") {
-    this.contentProject.style.display = "flex";
-    this.applediv.style.width = "600px";
-    bgimg1.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png";
-    bgimg2.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png";
-    bgimg3.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png";
-    bgimg4.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/apple.png";
-
-
-
-  } else if (this.selectFruit === "strawberry") {
-    this.strawberrydiv.style.width = "600px";
-    bgimg1.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/strawberry.png";
-    bgimg2.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/strawberry.png";
-    bgimg3.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/strawberry.png";
-    bgimg4.src = "https://darksoul-codepen.github.io/Fruits%20Carousel/strawberry.png";
-  }
-
-  this.bodycolor.style.backgroundColor = color;
-
-  this.orangeimg.style.animation = "visibility-h 0s linear 0s 1 normal forwards";
-  // this.appleimg.style.animation = "visibility-h 0s linear 0s 1 normal forwards";
-  this.strawberryimg.style.animation = "visibility-h 0s linear 0s 1 normal forwards";
-  this.lemonimg.style.animation = "visibility-h 0s linear 0s 1 normal forwards";
-
-  // this.appletext.style.animation = "text-back 1s linear 0s 1 normal forwards";
-  this.strawberrytext.style.animation = "text-back 1s linear 0s 1 normal forwards";
-  this.orangetext.style.animation = "text-back 1s linear 0s 1 normal forwards";
-  this.lemontext.style.animation = "text-back 1s linear 0s 1 normal forwards";
-
-  if (this.selectFruit === "lemon") {
-    lemontext.style.animation = "text 1s linear 0s 1 normal forwards";
-    lemonimg.style.animation = "down 1s linear 0s 1 normal forwards";
-
-  } else if (this.selectFruit === "orange") {
-    orangeimg.style.animation = "down 1s linear 0s 1 normal forwards";
-    orangetext.style.animation = "text 1s linear 0s 1 normal forwards";
-
-  } else if (this.selectFruit === "apple") {
-    // appleimg.style.animation = "down 1s linear 0s 1 normal forwards";
-    // appletext.style.animation = "text 1s linear 0s 1 normal forwards";
-
-
-
-  } else if (this.selectFruit === "strawberry") {
-    strawberryimg.style.animation = "down 1s linear 0s 1 normal forwards";
-    strawberrytext.style.animation = "text 1s linear 0s 1 normal forwards";
-    
-  }
-
-},
-
-apple() {
-  this.initializeElements();
-  this.selectFruit = "apple"
-  this.baseElement("#FF7070");
-},
-
-lemon() {
-  this.initializeElements();
-  this.selectFruit = "lemon"
-  this.baseElement("#f7e35b");
-},
-
-orange() {
-  this.initializeElements();
-  this.selectFruit = "orange"
-  this.baseElement("#f4a308");
-},
-
-strawberry() {
-  this.initializeElements();
-  this.selectFruit = "strawberry"
-  this.baseElement("#FF6286");
-}
-
-
-
-
+      emailjs
+        .send(
+          serviceID,
+          templateID,
+          {
+            from_name: this.name,
+            reply_to: this.email,
+            message: this.message
+          },
+          userID
+        )
+        .then(() => {
+          alert('Email sent successfully!')
+          this.name = ''
+          this.email = ''
+          this.message = ''
+          console.log('Email sent successfully!', response.status, response.text)
+        })
+        .catch((err) => {
+          alert('Failed to send email. Please try again.')
+          console.error(err)
+        })
+    }
   }
 }
 </script>
