@@ -184,7 +184,7 @@
                 <div class="project-content text-center">
                   <!-- Project Image -->
                   <v-img
-                    src="/src/assets/img/project-e-commerce.png"
+                    src="../assets/img/project-e-commerce.png"
                     max-width="600"
                     class="project-image mx-auto mb-6"
                   />
@@ -215,7 +215,7 @@
                 <div class="project-content text-center">
                   <!-- Project Image -->
                   <v-img
-                    src="/src/assets/img/project-banking.png"
+                    src="../assets/img/project-banking.png"
                     max-width="600"
                     class="project-image mx-auto mb-6"
                   />
@@ -246,7 +246,7 @@
                 <div class="project-content text-center">
                   <!-- Project Image -->
                   <v-img
-                    src="/src/assets/img/project-pos.png"
+                    src="../assets/img/project-pos.png"
                     max-width="600"
                     class="project-image mx-auto mb-6"
                   />
@@ -278,7 +278,7 @@
                 <div class="project-content text-center">
                   <!-- Project Image -->
                   <v-img
-                    src="/src/assets/img/project-leave.png"
+                    src="../assets/img/project-leave.png"
                     max-width="600"
                     class="project-image mx-auto mb-6"
                   />
@@ -317,7 +317,7 @@
                 <div class="project-content text-center">
                   <!-- Project Image -->
                   <v-img
-                    src="/src/assets/img/project-resume.png"
+                    src="../assets/img/project-resume.png"
                     max-width="600"
                     class="project-image mx-auto mb-6"
                   />
