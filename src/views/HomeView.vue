@@ -120,14 +120,18 @@
             <div class="exp-content">
               <h2>Bachelor of Computer Science</h2>
               <p>KASETSART UNIVERSITY (BANGKHEN)</p>
+              <p>GPA: 2.70</p>
             </div>
             <div class="exp-description">
               <p>
-                Engaged in coursework related to computer science, including software development,
-                algorithms, and data structures. Participated in hackathons and collaborated on
-                projects.
+                I have participated in coursework related to computer science, including software
+                development, algorithms, and data structures. Additionally, I have chosen electives
+                such as Software Engineering, Software Testing, Project Management, Business Data
+                (focused on data visualization), and Information Technologies. I enjoy collaborating
+                on projects where I can apply what I've learned to create practical solutions. I am
+                committed to continually improving my skills and expanding my knowledge in this
+                field.
               </p>
-              <p>GPA: 2.70</p>
             </div>
           </div>
         </div>
@@ -198,6 +202,11 @@
                     processes and ensure smooth transactions.
                   </p>
 
+                  <!-- Tools Used -->
+                  <p class="project-tools mt-4">
+                    <strong>Tools Used:</strong> JavaFX, MySQL, Java, Excel
+                  </p>
+
                   <!-- Project Links -->
                   <div class="link-container mt-4">
                     <a
@@ -229,6 +238,9 @@
                     customer registration system, document recording system, contract recording
                     system, invoicing system, and others.
                   </p>
+
+                  <!-- Tools Used -->
+                  <p class="project-tools mt-4"><strong>Tools Used:</strong> JavaFX, MySQL, Java</p>
 
                   <!-- Project Links -->
                   <div class="link-container mt-4">
@@ -263,6 +275,9 @@
                     efficiency.
                   </p>
 
+                  <!-- Tools Used -->
+                  <p class="project-tools mt-4"><strong>Tools Used:</strong> JavaFX, MySQL, Java</p>
+
                   <!-- Project Links -->
                   <div class="link-container mt-4">
                     <a
@@ -294,6 +309,11 @@
                     students to easily request various types of leave, while faculty can efficiently
                     review and manage these requests, track their status, and maintain leave
                     history.
+                  </p>
+
+                  <!-- Tools Used -->
+                  <p class="project-tools mt-4">
+                    <strong>Tools Used:</strong> Django, Vue.js, MySQL, Python, Javascript, Vuetify
                   </p>
 
                   <!-- Project Links -->
@@ -334,6 +354,11 @@
                     as Vue.js and Vuetify to create a responsive and modern design. It includes
                     various sections that provide information about my projects, skills, and how to
                     contact me.
+                  </p>
+
+                  <!-- Tools Used -->
+                  <p class="project-tools mt-4">
+                    <strong>Tools Used:</strong> Vue.js, Vuetify, CSS, HTML
                   </p>
 
                   <!-- Project Links -->
@@ -421,23 +446,15 @@ export default {
       type: Boolean,
       required: true
     }
-    // myPortfolioProject: require('../assets/img/project-resume.png')
   },
   mounted() {
     this.handleScroll()
     window.addEventListener('scroll', this.handleScroll)
-    // this.apple()
-    // this.initializeElements()
   },
   beforeDestroy() {
     window.removeEventListener('scroll', this.handleScroll)
   },
-  computed: {
-    // orangedivStyle() {
-    //   return {
-    //   };
-    // },
-  },
+  computed: {},
   data() {
     return {
       colors: ['primary', 'secondary', 'yellow darken-2', 'red', 'orange'],
