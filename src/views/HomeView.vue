@@ -184,8 +184,9 @@
                 <div class="project-content text-center">
                   <!-- Project Image -->
                   <v-img
-                    src="../assets/img/project-e-commerce.png"
+                    :src="projectEcommerceImage"
                     max-width="600"
+                    max-height="400"
                     class="project-image mx-auto mb-6"
                   />
 
@@ -215,8 +216,9 @@
                 <div class="project-content text-center">
                   <!-- Project Image -->
                   <v-img
-                    src="../assets/img/project-banking.png"
+                    :src="projectLoanSystemImage"
                     max-width="600"
+                    max-height="400"
                     class="project-image mx-auto mb-6"
                   />
 
@@ -246,8 +248,9 @@
                 <div class="project-content text-center">
                   <!-- Project Image -->
                   <v-img
-                    src="../assets/img/project-pos.png"
+                    :src="projectPOSImage"
                     max-width="600"
+                    max-height="400"
                     class="project-image mx-auto mb-6"
                   />
 
@@ -278,8 +281,9 @@
                 <div class="project-content text-center">
                   <!-- Project Image -->
                   <v-img
-                    src="../assets/img/project-leave.png"
+                    :src="projectLeaveImage"
                     max-width="600"
+                    max-height="400"
                     class="project-image mx-auto mb-6"
                   />
 
@@ -317,9 +321,11 @@
                 <div class="project-content text-center">
                   <!-- Project Image -->
                   <v-img
-                    src="../assets/img/project-resume.png"
+                    :src="projectPortfolioImage"
                     max-width="600"
+                    max-height="400"
                     class="project-image mx-auto mb-6"
+                    alt="Project Image"
                   />
 
                   <!-- Project Description -->
@@ -400,6 +406,11 @@
 </template>
 
 <script>
+import projectLoanSystemImage from '@/assets/img/project-banking.png'
+import projectEcommerceImage from '@/assets/img/project-e-commerce.png'
+import projectLeaveImage from '@/assets/img/project-leave.png'
+import projectPOSImage from '@/assets/img/project-pos.png'
+import projectPortfolioImage from '@/assets/img/project-resume.png'
 import emailjs from 'emailjs-com'
 import '../assets/home.css'
 export default {
@@ -410,6 +421,7 @@ export default {
       type: Boolean,
       required: true
     }
+    // myPortfolioProject: require('../assets/img/project-resume.png')
   },
   mounted() {
     this.handleScroll()
@@ -433,6 +445,11 @@ export default {
 
       // project section
       tab: 'one',
+      projectEcommerceImage,
+      projectLoanSystemImage,
+      projectPOSImage,
+      projectLeaveImage,
+      projectPortfolioImage,
 
       // contact section
       name: '',
